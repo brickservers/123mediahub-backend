@@ -12,7 +12,7 @@ class DashboardController extends Controller
             'pageHeader' => false
         ];
 
-        return view('/pages/dashboard-analytics', [
+        return view('/pages/dashboard', [
             'pageConfigs' => $pageConfigs
         ]);
     }
