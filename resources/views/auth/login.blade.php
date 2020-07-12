@@ -7,9 +7,7 @@
         <link rel="stylesheet" href="{{ asset(mix('css/pages/authentication.css')) }}">
 @endsection
 
-@section('page-script')
-  <script src="{{ asset(mix('js/scripts/auth/login.js')) }}"></script>
-@endsection
+
 
 @section('content')
 <section class="row flexbox-container">

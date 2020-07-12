@@ -30,15 +30,12 @@
       <div class="header-navbar-shadow"></div>
 
       {{-- Include Navbar --}}
-      @include('panels.sk-back-header')
+      
 
         <!-- BEGIN: Content-->
         <div class="app-content content">
             <div class="content-wrapper">
-                {{-- Include Breadcrumb --}}
-                @if($configData['pageHeader'] == true)
-                    @include('panels.breadcrumb')
-                @endif
+                
 
                 <div class="content-body">
                     {{-- Include Page Content --}}
