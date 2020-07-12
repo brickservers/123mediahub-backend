@@ -11,12 +11,12 @@
 |
 */
 
-
+Route::group(['middleware' => ['auth']], function () {
 // Route url
 Route::get('/', 'DashboardController@dashboardAnalytics');
 
 // Route Dashboards
-Route::get('/dashboard-analytics', 'DashboardController@dashboardAnalytics');
+Route::get('/dashboard', 'DashboardController@dashboardAnalytics');
 
 // Route Components
 Route::get('/sk-layout-2-columns', 'StaterkitController@columns_2');

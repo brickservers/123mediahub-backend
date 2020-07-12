@@ -1,5 +1,5 @@
 {"menu": [
-  {"url":"dashboard-analytics", "name":"Dashboard", "slug":"dashboard", "icon":"feather icon-home"},
+  {"url":"dashboard", "name":"Dashboard", "slug":"dashboard", "icon":"feather icon-home"},
   {"url":"", "name":"Starter kit", "icon":"feather icon-zap",
       "submenu": [
           {"url":"sk-layout-2-columns", "name":"2 Columns", "i18n":"nav.sk_layout_2_columns"},
