@@ -1,7 +1,7 @@
 @php
     $configData = Helper::applClasses();
 @endphp
-<body class="vertical-layout vertical-menu-modern 2-columns {{ $configData['blankPageClass'] }} {{ $configData['bodyClass'] }} {{($configData['theme'] === 'light') ? '' : $configData['theme'] }} {{ $configData['navbarType'] }} {{ $configData['sidebarClass'] }} {{ $configData['footerType'] }} " data-menu="vertical-menu-modern" data-col="2-columns">
+<body class="fixed-footer vertical-layout vertical-menu-modern 2-columns {{ $configData['blankPageClass'] }} {{ $configData['bodyClass'] }} {{($configData['theme'] === 'light') ? '' : $configData['theme'] }} {{ $configData['navbarType'] }} {{ $configData['sidebarClass'] }} {{ $configData['footerType'] }} " data-menu="vertical-menu-modern" data-col="2-columns">
     {{-- Include Sidebar --}}
     @include('panels.sidebar')
 
