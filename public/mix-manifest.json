@@ -1,9 +1,10 @@
 {
     "/js/core/app.js": "/js/core/app.js?id=26a4e0dc91b7ae469233",
-    "/js/core/app-menu.js": "/js/core/app-menu.js?id=0f0074bf0e54b292bc0c",
+    "/js/core/app-menu.js": "/js/core/app-menu.js?id=62dae3dba2cf705150fd",
     "/css/plugins/tour/tour.css": "/css/plugins/tour/tour.css?id=3a52109b60a992907fb8",
     "/css/themes/dark-layout.css": "/css/themes/dark-layout.css?id=336cb0d86ce431ef29ad",
     "/css/themes/semi-dark-layout.css": "/css/themes/semi-dark-layout.css?id=ee352f9bd2b0136f24fa",
+    "/css/pages/authentication.css": "/css/pages/authentication.css?id=da01720a679815bacc4a",
     "/css/pages/card-analytics.css": "/css/pages/card-analytics.css?id=61e39180ac2c018a652b",
     "/css/pages/dashboard-analytics.css": "/css/pages/dashboard-analytics.css?id=f4f82f933694b6ac1e38",
     "/css/core/colors/palette-gradient.css": "/css/core/colors/palette-gradient.css?id=d70cefb6149d8aa6e048",

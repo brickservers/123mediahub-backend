@@ -3,7 +3,6 @@
 //  Description: Common components file to includ all theme specific custom components.
 //  ----------------------------------------------------------------------------------------------
 //  Item name: Vuexy  - Vuejs, HTML & Laravel Admin Dashboard Template
-//  Version: 1.0
 //  Author: PIXINVENT
 //  Author URL: http://www.themeforest.net/user/pixinvent
 // ================================================================================================
@@ -42,9 +41,15 @@
 @import "components/search";
 @import "components/chart";
 @import "components/bootstrap-social";
+@import "components/demo"; // Plugins demo, remove in real project
+@import "components/customizer"; // Customizer demo, remove in real project
 @import "components/chips";
 @import "components/divider";
 
 // Plugins
 // ------------------------------
 @import "plugins/ui/breakpoints";
+// TODO:A: Set this scss page specific
+@import "plugins/forms/tags/basic-input";
+@import "plugins/forms/select2/select2";
+@import "plugins/tables/datatables";
