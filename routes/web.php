@@ -24,6 +24,9 @@ Route::get('/sk-layout-fixed-navbar', 'StaterkitController@fixed_navbar');
 Route::get('/sk-layout-floating-navbar', 'StaterkitController@floating_navbar');
 Route::get('/sk-layout-fixed', 'StaterkitController@fixed_layout');
 
+});
+
+
 //Auth
 Auth::routes();
 
