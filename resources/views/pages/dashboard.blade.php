@@ -15,7 +15,7 @@
   @endsection
 
   @section('content')
-    {{-- Dashboard Analytics Start --}}
+    {{-- Dashboard Start --}}
     <section id="dashboard-analytics">
       <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <h2 class="text-bold-700 mt-1 mb-25">97.5K</h2>
-                    <p class="mb-0">Orders Received</p>
+                    <p class="mb-0">Total Downloads</p>
                 </div>
                 <div class="card-content">
                     <div id="orders-received-chart"></div>
@@ -79,7 +79,7 @@
                           <div class="col-lg-6 col-12 d-flex justify-content-between flex-column order-lg-1 order-2 mt-lg-0 mt-2">
                               <div>
                                   <h2 class="text-bold-700 mb-25">2.7K</h2>
-                                  <p class="text-bold-500 mb-75">Avg Sessions</p>
+                                  <p class="text-bold-500 mb-75">Avg Downloads</p>
                                   <h5 class="font-medium-2">
                                       <span class="text-success">+5.2% </span>
                                       <span>vs last 7 days</span>
@@ -105,14 +105,14 @@
                       <hr/>
                       <div class="row avg-sessions pt-50">
                           <div class="col-6">
-                              <p class="mb-0">Goal: $100000</p>
+                              <p class="mb-0">Total Revenue: $100000</p>
                               <div class="progress progress-bar-primary mt-25">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="50" aria-valuemax="100"
                                   style="width:50%"></div>
                               </div>
                           </div>
                           <div class="col-6">
-                              <p class="mb-0">Users: 100K</p>
+                              <p class="mb-0">Total Songs: 100K</p>
                               <div class="progress progress-bar-warning mt-25">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="60" aria-valuemax="100"
                                   style="width:60%"></div>
@@ -126,7 +126,7 @@
                               </div>
                           </div>
                           <div class="col-6">
-                              <p class="mb-0">Duration: 1yr</p>
+                              <p class="mb-0">Joined: 1yr</p>
                               <div class="progress progress-bar-success mt-25">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="90" aria-valuemax="100"
                                   style="width:90%"></div>
