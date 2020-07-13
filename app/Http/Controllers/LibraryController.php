@@ -13,7 +13,13 @@ class LibraryController extends Controller
      */
     public function index()
     {
-        //
+        $pageConfigs = [
+            'pageHeader' => false
+        ];
+
+        return view('/pages/library/index', [
+            'pageConfigs' => $pageConfigs
+        ]);
     }
 
     /**
