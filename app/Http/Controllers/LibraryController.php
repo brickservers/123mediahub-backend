@@ -13,12 +13,17 @@ class LibraryController extends Controller
      */
     public function index()
     {
+        // To get all json data
+        $json = file_get_contents(storage_path('products-export.json'));
+        $objs = json_decode($json,true);
+        
         $pageConfigs = [
             'pageHeader' => false
         ];
 
         return view('/pages/library/index', [
-            'pageConfigs' => $pageConfigs
+            'pageConfigs' => $pageConfigs,
+            'products' => $objs['products']
         ]);
     }
 

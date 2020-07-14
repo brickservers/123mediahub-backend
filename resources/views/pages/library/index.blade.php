@@ -1,7 +1,7 @@
 
 @extends('layouts/contentLayoutMaster')
 
-@section('title', 'Thumb View')
+@section('title', 'Your Library')
 
 @section('vendor-style')
         {{-- vendor files --}}
@@ -39,7 +39,7 @@
         <thead>
           <tr>
             <th></th>
-            <th>Image</th>
+            
             <th>NAME</th>
             <th>CATEGORY</th>
             <th>POPULARITY</th>
@@ -65,8 +65,7 @@
             ?>
             <tr>
               <td></td>
-              <td class="product-img"><img src="{{ $product["img"] }}" alt="Img placeholder">
-              </td>
+               
               <td class="product-name">{{ $product["name"] }}</td>
               <td class="product-category">{{ $product["category"] }}</td>
               <td>

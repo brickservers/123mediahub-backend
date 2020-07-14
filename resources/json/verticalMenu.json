@@ -1,7 +1,7 @@
 {"menu": [
   {"url":"dashboard", "name":"Dashboard", "slug":"dashboard", "icon":"feather icon-home"},
   {"url":"add-media", "name":"Add Media", "slug":"add-media", "icon":"feather icon-music"},
-  {"url":"library", "name":"Library", "slug":"library", "icon":"feather icon-activity"},
+  {"url":"library", "name":"Your Library", "slug":"library", "icon":"feather icon-activity"},
   {"url":"","navheader":"Support","icon":""},
     {"url":"", "name":"Documentation", "icon":"feather icon-folder", "i18n":"nav.documentation"},
     {"url":"", "name":"Raise Support", "icon":"feather icon-life-buoy", "i18n":"nav.raise_support"}
