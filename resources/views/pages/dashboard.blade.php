@@ -195,8 +195,10 @@
 @section('page-script')
         <!-- Page js files -->
         <script src="{{ asset(mix('js/scripts/pages/dashboard-analytics.js')) }}"></script>
+        <script>
         function openIn(url) {
           var win = window.open(url, '_self');
             win.focus();
                 }
+              </script>
 @endsection
