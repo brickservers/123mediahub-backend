@@ -1,8 +1,8 @@
 @php
     $configData = Helper::applClasses();
 @endphp
-<body class="fixed-footer vertical-layout vertical-menu-modern 2-columns {{ $configData['blankPageClass'] }} {{ $configData['bodyClass'] }} {{($configData['theme'] === 'light') ? '' : $configData['theme'] }} {{ $configData['navbarType'] }} {{ $configData['sidebarClass'] }} {{ $configData['footerType'] }} " data-menu="vertical-menu-modern" data-col="2-columns">
-    {{-- Include Sidebar --}}
+<body onload="startTime()" class="fixed-footer vertical-layout vertical-menu-modern 2-columns {{ $configData['blankPageClass'] }} {{ $configData['bodyClass'] }} {{($configData['theme'] === 'light') ? '' : $configData['theme'] }} {{ $configData['navbarType'] }} {{ $configData['sidebarClass'] }} {{ $configData['footerType'] }} " data-menu="vertical-menu-modern" data-col="2-columns">
+    {{-- Includonload="startTime()"e Sidebar --}}
     @include('panels.sidebar')
 
     <!-- BEGIN: Content-->

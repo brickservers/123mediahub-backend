@@ -19,7 +19,7 @@
             susceptive nonturbinated indoctrination formulary dyskinetic deafforest Strumella frolicsomeness encrustment
             portia myelination lachrymatory bestain hoople piscator pyramidoidal parter clipt.
           </p>
-          <a class="btn btn-primary btn-lg" href="dashboard-analytics">Back to Home</a>
+          <a class="btn btn-primary btn-lg" href="dashboard">Back to Home</a>
         </div>
       </div>
     </div>

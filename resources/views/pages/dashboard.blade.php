@@ -16,22 +16,25 @@
 
   @section('content')
     {{-- Dashboard Start --}}
-    <section id="dashboard-analytics">
+    <section  id="dashboard-analytics">
       <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="card bg-analytics text-white">
+          <div class="col-lg-6 col-md-14 col-sm-12">
+          <div class="card bg-gradient-info text-white">
             <div class="card-content">
               <div class="card-body text-center">
                 <img src="{{ asset('images/elements/decore-left.png') }}" class="img-left" alt="card-img-left">
                 <img src="{{ asset('images/elements/decore-right.png')}}" class="img-right" alt="card-img-right">
+                
                 <div class="avatar avatar-xl bg-primary shadow mt-0">
+
                     <div class="avatar-content">
                         <i class="feather icon-award white font-large-1"></i>
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center text-white">
                   <h1 class="mb-2 text-white">Welcome {{Auth::user()->name}},</h1>
-                  <p class="m-auto w-75"> <span class="float-left"><strong><a href="add-media"><i class="em em-musical_note" aria-role="presentation" aria-label="MUSICAL NOTE"></i> Add your media</a></strong></span>    <span class="float-right"><strong><a href="profile"><i class="em em-bust_in_silhouette" aria-role="presentation" aria-label="BUST IN SILHOUETTE"></i> Edit your profile.</a></strong></span></p>
+                  <h2 class="text-center"><div id="txt"></div></h2>
+                  <p class="m-auto w-75"> <span class="float-left"><strong><i class="em em-heavy_plus_sign" aria-role="presentation" aria-label="HEAVY PLUS SIGN"></i> Add your media</strong></span>    <span class="float-right"><strong><i class="em em-bust_in_silhouette" aria-role="presentation" aria-label="BUST IN SILHOUETTE"></i> Edit your profile</strong></span> </p>  <i class="em em-black_left_pointing_double_triangle_with_vertical_bar" aria-role="presentation" aria-label=""></i><i class="em em-black_right_pointing_double_triangle_with_vertical_bar" aria-role="presentation" aria-label=""></i> 
                 </div>
               </div>
             </div>
