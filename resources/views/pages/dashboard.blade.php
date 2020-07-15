@@ -31,7 +31,7 @@
                 </div>
                 <div class="text-center">
                   <h1 class="mb-2 text-white">Welcome {{Auth::user()->name}},</h1>
-                  <p class="m-auto w-75"> <strong><a href="add-media">Add your media</a></strong> or <strong><a href="profile">Edit your profile.</a></strong></p>
+                  <p class="m-auto w-75"> <strong><div onclick="openIn('add-media');">Add your media</div></strong> or <strong><div onclick="openIn('profile');">Edit your profile.</a></strong></p>
                 </div>
               </div>
             </div>
@@ -195,4 +195,8 @@
 @section('page-script')
         <!-- Page js files -->
         <script src="{{ asset(mix('js/scripts/pages/dashboard-analytics.js')) }}"></script>
+        function openIn(url) {
+          var win = window.open(url, '_self');
+            win.focus();
+                }
 @endsection
