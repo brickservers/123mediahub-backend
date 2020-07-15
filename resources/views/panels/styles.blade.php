@@ -1,6 +1,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600">
         <link rel="stylesheet" href="{{ asset(mix('vendors/css/vendors.min.css')) }}">
         <link rel="stylesheet" href="{{ asset(mix('vendors/css/ui/prism.min.css')) }}">
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         {{-- Vendor Styles --}}
         @yield('vendor-style')
         {{-- Theme Styles --}}
