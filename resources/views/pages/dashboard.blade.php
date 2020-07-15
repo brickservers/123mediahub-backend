@@ -31,7 +31,7 @@
                 </div>
                 <div class="text-center">
                   <h1 class="mb-2 text-white">Welcome {{Auth::user()->name}},</h1>
-                  <p class="m-auto w-75"> <strong><a href="add-media"><i class="em em-musical_note" aria-role="presentation" aria-label="MUSICAL NOTE"></i> Add your media</a></strong> or <strong><a href="profile"><i class="em em-bust_in_silhouette" aria-role="presentation" aria-label="BUST IN SILHOUETTE"></i> Edit your profile.</a></strong></p>
+                  <p class="m-auto w-75"> <strong><a href="add-media"><i class="em em-musical_note" aria-role="presentation" aria-label="MUSICAL NOTE"></i> Add your media</a></strong>    <strong><a href="profile"><i class="em em-bust_in_silhouette" aria-role="presentation" aria-label="BUST IN SILHOUETTE"></i> Edit your profile.</a></strong></p>
                 </div>
               </div>
             </div>
