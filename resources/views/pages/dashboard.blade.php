@@ -31,7 +31,7 @@
                 </div>
                 <div class="text-center">
                   <h1 class="mb-2 text-white">Welcome {{Auth::user()->name}},</h1>
-                  <p class="m-auto w-75"> <strong><a href="https://io.123mediahub.com/add-media">Add your media</a></strong> or <strong><a href="https://io.123mediahub.com/profile">Edit your profile.</a></strong></p>
+                  <p class="m-auto w-75"> <strong><a href="add-media">Add your media</a></strong> or <strong><a href="profile">Edit your profile.</a></strong></p>
                 </div>
               </div>
             </div>
