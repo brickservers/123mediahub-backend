@@ -19,7 +19,7 @@
     <section id="dashboard-analytics">
       <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12">
-          <div class="card bg-analytics text-white">
+          <div class="card gradient-light-light text-white">
             <div class="card-content">
               <div class="card-body text-center">
                 <img src="{{ asset('images/elements/decore-left.png') }}" class="img-left" alt="card-img-left">
