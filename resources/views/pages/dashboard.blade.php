@@ -28,7 +28,7 @@
                 <div class="avatar avatar-xl bg-primary shadow mt-0">
 
                     <div class="avatar-content">
-                        <i class="feather icon-award white font-large-1"></i>
+                        <img class="round" src="{{asset('images/portrait/small/avatar-s-11.jpg') }}" alt="avatar" height="40" width="40" />
                     </div>
                 </div>
                 <div class="text-center text-white">
